@@ -1,1 +1,64 @@
-ZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIFBPU1QocmVxdWVzdCkgewogIGNvbnN0IEdFTUlOSV9BUElfS0VZID0gcHJvY2Vzcy5lbnYuR0VNSU5JX0FQSV9LRVk7CiAgY29uc3QgR0VNSU5JX01PREVMID0gcHJvY2Vzcy5lbnYuR0VNSU5JX01PREVMIHx8ICJnZW1pbmktMi4wLWZsYXNoIjsKCiAgaWYgKCFHRU1JTklfQVBJX0tFWSkgewogICAgcmV0dXJuIFJlc3BvbnNlLmpzb24oCiAgICAgIHsgZXJyb3I6ICJBSSBub3QgY29uZmlndXJlZC4gU2V0IEdFTUlOSV9BUElfS0VZIGVudmlyb25tZW50IHZhcmlhYmxlLiIgfSwKICAgICAgeyBzdGF0dXM6IDUwMyB9CiAgICApOwogIH0KCiAgbGV0IGJvZHk7CiAgdHJ5IHsKICAgIGJvZHkgPSBhd2FpdCByZXF1ZXN0Lmpzb24oKTsKICB9IGNhdGNoIHsKICAgIHJldHVybiBSZXNwb25zZS5qc29uKHsgZXJyb3I6ICJJbnZhbGlkIEpTT04gYm9keSIgfSwgeyBzdGF0dXM6IDQwMCB9KTsKICB9CgogIGNvbnN0IHsgbWVzc2FnZXMsIHN5c3RlbVByb21wdCB9ID0gYm9keTsKICBpZiAoIUFycmF5LmlzQXJyYXkobWVzc2FnZXMpIHx8IG1lc3NhZ2VzLmxlbmd0aCA9PT0gMCkgewogICAgcmV0dXJuIFJlc3BvbnNlLmpzb24oeyBlcnJvcjogIm1lc3NhZ2VzIGFycmF5IHJlcXVpcmVkIiB9LCB7IHN0YXR1czogNDAwIH0pOwogIH0KCiAgdHJ5IHsKICAgIGNvbnN0IGNvbnRlbnRzID0gbWVzc2FnZXMKICAgICAgLmZpbHRlcigobSkgPT4gbSAmJiAobS5yb2xlID09PSAidXNlciIgfHwgbS5yb2xlID09PSAiYXNzaXN0YW50IikpCiAgICAgIC5tYXAoKG0pID0+ICh7CiAgICAgICAgcm9sZTogbS5yb2xlID09PSAiYXNzaXN0YW50IiA/ICJtb2RlbCIgOiAidXNlciIsCiAgICAgICAgcGFydHM6IFt7IHRleHQ6IFN0cmluZyhtLmNvbnRlbnQgfHwgIiIpIH1dLAogICAgICB9KSk7CgogICAgY29uc3QgZ2VtaW5pQm9keSA9IHsKICAgICAgY29udGVudHMsCiAgICAgIC4uLihzeXN0ZW1Qcm9tcHQKICAgICAgICA/IHsgc3lzdGVtSW5zdHJ1Y3Rpb246IHsgcGFydHM6IFt7IHRleHQ6IFN0cmluZyhzeXN0ZW1Qcm9tcHQpIH1dIH0gfQogICAgICAgIDoge30pLAogICAgICBnZW5lcmF0aW9uQ29uZmlnOiB7IG1heE91dHB1dFRva2VuczogMTAyNCwgdGVtcGVyYXR1cmU6IDAuNyB9LAogICAgfTsKCiAgICBjb25zdCB1cmwgPSBgaHR0cHM6Ly9nZW5lcmF0aXZlbGFuZ3VhZ2UuZ29vZ2xlYXBpcy5jb20vdjFiZXRhL21vZGVscy8ke0dFTUlOSV9NT0RFTH06Z2VuZXJhdGVDb250ZW50P2tleT0ke0dFTUlOSV9BUElfS0VZfWA7CiAgICBjb25zdCByID0gYXdhaXQgZmV0Y2godXJsLCB7CiAgICAgIG1ldGhvZDogIlBPU1QiLAogICAgICBoZWFkZXJzOiB7ICJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24vanNvbiIgfSwKICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkoZ2VtaW5pQm9keSksCiAgICB9KTsKCiAgICBpZiAoIXIub2spIHsKICAgICAgY29uc3QgZXJyVGV4dCA9IGF3YWl0IHIudGV4dCgpLmNhdGNoKCgpID0+ICIiKTsKICAgICAgY29uc29sZS5lcnJvcigiR2VtaW5pIEFQSSBlcnJvcjoiLCByLnN0YXR1cywgZXJyVGV4dCk7CiAgICAgIHJldHVybiBSZXNwb25zZS5qc29uKAogICAgICAgIHsgZXJyb3I6IGBHZW1pbmkgQVBJIGVycm9yICgke3Iuc3RhdHVzfSlgIH0sCiAgICAgICAgeyBzdGF0dXM6IDUwMiB9CiAgICAgICk7CiAgICB9CgogICAgY29uc3QgZGF0YSA9IGF3YWl0IHIuanNvbigpOwogICAgY29uc3QgdGV4dCA9CiAgICAgIGRhdGE/LmNhbmRpZGF0ZXM/LlswXT8uY29udGVudD8ucGFydHM/Lm1hcCgocCkgPT4gcC50ZXh0KS5qb2luKCIiKSB8fCAiIjsKICAgIHJldHVybiBSZXNwb25zZS5qc29uKHsgdGV4dCB9KTsKICB9IGNhdGNoIChlKSB7CiAgICBjb25zb2xlLmVycm9yKCJBSSBwcm94eSBlcnJvcjoiLCBlLm1lc3NhZ2UpOwogICAgcmV0dXJuIFJlc3BvbnNlLmpzb24oeyBlcnJvcjogIkludGVybmFsIHNlcnZlciBlcnJvciIgfSwgeyBzdGF0dXM6IDUwMCB9KTsKICB9Cn0K
+export async function POST(request) {
+  const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+  const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-2.0-flash";
+
+  if (!GEMINI_API_KEY) {
+    return Response.json(
+      { error: "AI not configured. Set GEMINI_API_KEY environment variable." },
+      { status: 503 }
+    );
+  }
+
+  let body;
+  try {
+    body = await request.json();
+  } catch {
+    return Response.json({ error: "Invalid JSON body" }, { status: 400 });
+  }
+
+  const { messages, systemPrompt } = body;
+  if (!Array.isArray(messages) || messages.length === 0) {
+    return Response.json({ error: "messages array required" }, { status: 400 });
+  }
+
+  try {
+    const contents = messages
+      .filter((m) => m && (m.role === "user" || m.role === "assistant"))
+      .map((m) => ({
+        role: m.role === "assistant" ? "model" : "user",
+        parts: [{ text: String(m.content || "") }],
+      }));
+
+    const geminiBody = {
+      contents,
+      ...(systemPrompt
+        ? { systemInstruction: { parts: [{ text: String(systemPrompt) }] } }
+        : {}),
+      generationConfig: { maxOutputTokens: 1024, temperature: 0.7 },
+    };
+
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}`;
+    const r = await fetch(url, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(geminiBody),
+    });
+
+    if (!r.ok) {
+      const errText = await r.text().catch(() => "");
+      console.error("Gemini API error:", r.status, errText);
+      return Response.json(
+        { error: `Gemini API error (${r.status})` },
+        { status: 502 }
+      );
+    }
+
+    const data = await r.json();
+    const text =
+      data?.candidates?.[0]?.content?.parts?.map((p) => p.text).join("") || "";
+    return Response.json({ text });
+  } catch (e) {
+    console.error("AI proxy error:", e.message);
+    return Response.json({ error: "Internal server error" }, { status: 500 });
+  }
+}
