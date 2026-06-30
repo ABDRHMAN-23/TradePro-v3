@@ -1,1 +1,28 @@
-ewogICJuYW1lIjogInRyYWRlcHJvIiwKICAidmVyc2lvbiI6ICIzLjAuMCIsCiAgInByaXZhdGUiOiB0cnVlLAogICJzY3JpcHRzIjogewogICAgImRldiI6ICJuZXh0IGRldiIsCiAgICAiYnVpbGQiOiAibmV4dCBidWlsZCIsCiAgICAic3RhcnQiOiAibmV4dCBzdGFydCAtcCAzMDAwIiwKICAgICJzZXJ2ZXIiOiAibm9kZSBzZXJ2ZXIuanMiCiAgfSwKICAiZGVwZW5kZW5jaWVzIjogewogICAgIm5leHQiOiAiXjE0LjIuMCIsCiAgICAicmVhY3QiOiAiXjE4LjMuMCIsCiAgICAicmVhY3QtZG9tIjogIl4xOC4zLjAiLAogICAgImV4cHJlc3MiOiAiXjQuMTguMiIsCiAgICAiY29tcHJlc3Npb24iOiAiXjEuNy40IiwKICAgICJ3cyI6ICJeOC4xNi4wIiwKICAgICJkb3RlbnYiOiAiXjE2LjQuNSIKICB9LAogICJlbmdpbmVzIjogeyJub2RlIjogIj49MTguMC4wIn0KfQo=
+{
+  "name": "tradepro",
+  "version": "3.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "ws": "^8.16.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.0.1",
+    "@types/react": "19.2.17",
+    "typescript": "6.0.3"
+  }
+}
