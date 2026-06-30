@@ -1,1 +1,42 @@
-aW1wb3J0IHR5cGUgeyBNZXRhZGF0YSwgVmlld3BvcnQgfSBmcm9tICJuZXh0IjsKCmV4cG9ydCBjb25zdCBtZXRhZGF0YTogTWV0YWRhdGEgPSB7CiAgdGl0bGU6ICJUcmFkZVBybyDigJQg2KPYr9in2Kkg2KfZhNmF2YLYp9mI2YQg2KfZhNiw2YPZiiIsCiAgZGVzY3JpcHRpb246ICLYpdiv2KfYsdipINin2YTZhdmH2KfZhSDZiNin2YTZgdmI2KfYqtmK2LEg2YTZhNmF2YLYp9mI2YTZitmGINmF2Lkg2YXYs9in2LnYryDYsNmD2KfYoSDYp9i12LfZhtin2LnZiiIsCiAgbWFuaWZlc3Q6ICIvbWFuaWZlc3QuanNvbiIsCiAgYXBwbGVXZWJBcHA6IHsgY2FwYWJsZTogdHJ1ZSwgc3RhdHVzQmFyU3R5bGU6ICJibGFjay10cmFuc2x1Y2VudCIsIHRpdGxlOiAiVHJhZGVQcm8iIH0sCiAgb3RoZXI6IHsgIm1vYmlsZS13ZWItYXBwLWNhcGFibGUiOiAieWVzIiB9LAp9OwoKZXhwb3J0IGNvbnN0IHZpZXdwb3J0OiBWaWV3cG9ydCA9IHsKICB0aGVtZUNvbG9yOiAiI0Y5NzMxNiIsCiAgd2lkdGg6ICJkZXZpY2Utd2lkdGgiLAogIGluaXRpYWxTY2FsZTogMSwKICBtYXhpbXVtU2NhbGU6IDEsCiAgdXNlclNjYWxhYmxlOiBmYWxzZSwKfTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFJvb3RMYXlvdXQoeyBjaGlsZHJlbiB9OiB7IGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGUgfSkgewogIHJldHVybiAoCiAgICA8aHRtbCBsYW5nPSJhciIgZGlyPSJydGwiPgogICAgICA8aGVhZD4KICAgICAgICA8bGluayByZWw9Imljb24iIGhyZWY9Ii9pY29ucy9pY29uLTE5Mi5wbmciIC8+CiAgICAgICAgPGxpbmsgcmVsPSJhcHBsZS10b3VjaC1pY29uIiBocmVmPSIvaWNvbnMvaWNvbi0xOTIucG5nIiAvPgogICAgICAgIDxtZXRhIG5hbWU9ImFwcGxlLW1vYmlsZS13ZWItYXBwLWNhcGFibGUiIGNvbnRlbnQ9InllcyIgLz4KICAgICAgICA8bWV0YSBuYW1lPSJhcHBsZS1tb2JpbGUtd2ViLWFwcC1zdGF0dXMtYmFyLXN0eWxlIiBjb250ZW50PSJibGFjay10cmFuc2x1Y2VudCIgLz4KICAgICAgPC9oZWFkPgogICAgICA8Ym9keSBzdHlsZT17eyBtYXJnaW46IDAsIHBhZGRpbmc6IDAsIG92ZXJmbG93OiAiaGlkZGVuIiB9fT4KICAgICAgICB7Y2hpbGRyZW59CiAgICAgICAgPHNjcmlwdCBkYW5nZXJvdXNseVNldElubmVySFRNTD17eyBfX2h0bWw6IGAKICAgICAgICAgIGlmICgnc2VydmljZVdvcmtlcicgaW4gbmF2aWdhdG9yKSB7CiAgICAgICAgICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCdsb2FkJywgKCkgPT4gewogICAgICAgICAgICAgIG5hdmlnYXRvci5zZXJ2aWNlV29ya2VyLnJlZ2lzdGVyKCcvc2VydmljZS13b3JrZXIuanMnKQogICAgICAgICAgICAgICAgLnRoZW4ociA9PiBjb25zb2xlLmxvZygnU1cgcmVnaXN0ZXJlZCcpKQogICAgICAgICAgICAgICAgLmNhdGNoKGUgPT4gY29uc29sZS5sb2coJ1NXIGVycm9yOicsIGUpKTsKICAgICAgICAgICAgfSk7CiAgICAgICAgICB9CiAgICAgICAgYH19IC8+CiAgICAgIDwvYm9keT4KICAgIDwvaHRtbD4KICApOwp9Cg==
+import type { Metadata, Viewport } from "next";
+
+export const metadata: Metadata = {
+  title: "TradePro — أداة المقاول الذكي",
+  description: "إدارة المهام والفواتير للمقاولين مع مساعد ذكاء اصطناعي",
+  manifest: "/manifest.json",
+  appleWebApp: { capable: true, statusBarStyle: "black-translucent", title: "TradePro" },
+  other: { "mobile-web-app-capable": "yes" },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#F97316",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="ar" dir="rtl">
+      <head>
+        <link rel="icon" href="/icons/icon-192.png" />
+        <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+      </head>
+      <body style={{ margin: 0, padding: 0, overflow: "hidden" }}>
+        {children}
+        <script dangerouslySetInnerHTML={{ __html: `
+          if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+              navigator.serviceWorker.register('/service-worker.js')
+                .then(r => console.log('SW registered'))
+                .catch(e => console.log('SW error:', e));
+            });
+          }
+        `}} />
+      </body>
+    </html>
+  );
+}
