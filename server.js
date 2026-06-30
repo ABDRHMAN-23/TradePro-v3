@@ -1,1 +1,157 @@
-Ly8gVHJhZGVQcm8gU2VydmVyIOKAlCBFeHByZXNzICsgV2ViU29ja2V0IGZvciBjcm9zcy1kZXZpY2Ugc3luYwovLyBucG0gaW5zdGFsbCBleHByZXNzIGNvbXByZXNzaW9uIHdzIGRvdGVudgovLyDYp9mG2LPYriAuZW52LmV4YW1wbGUg2KXZhNmJIC5lbnYg2YjYtti5INmF2YHYqtin2K0gR0VNSU5JX0FQSV9LRVkg2YHZitmHCi8vIG5vZGUgc2VydmVyLmpzCnRyeSB7IHJlcXVpcmUoImRvdGVudiIpLmNvbmZpZygpOyB9IGNhdGNoIHt9CmNvbnN0IGV4cHJlc3MgPSByZXF1aXJlKCJleHByZXNzIik7CmNvbnN0IHBhdGggPSByZXF1aXJlKCJwYXRoIik7CmNvbnN0IGZzID0gcmVxdWlyZSgiZnMiKTsKY29uc3QgaHR0cCA9IHJlcXVpcmUoImh0dHAiKTsKY29uc3QgY29tcHJlc3Npb24gPSByZXF1aXJlKCJjb21wcmVzc2lvbiIpOwoKY29uc3QgYXBwID0gZXhwcmVzcygpOwpjb25zdCBQT1JUID0gcHJvY2Vzcy5lbnYuUE9SVCB8fCAzMDAwOwphcHAudXNlKGNvbXByZXNzaW9uKCkpOwphcHAudXNlKGV4cHJlc3MuanNvbih7bGltaXQ6IjEwbWIifSkpOwphcHAudXNlKChyZXEscmVzLG5leHQpPT57cmVzLnNldEhlYWRlcigiQWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2luIiwiKiIpO3Jlcy5zZXRIZWFkZXIoIkFjY2Vzcy1Db250cm9sLUFsbG93LU1ldGhvZHMiLCJHRVQsUE9TVCxERUxFVEUsT1BUSU9OUyIpO3Jlcy5zZXRIZWFkZXIoIkFjY2Vzcy1Db250cm9sLUFsbG93LUhlYWRlcnMiLCJDb250ZW50LVR5cGUiKTtpZihyZXEubWV0aG9kPT09Ik9QVElPTlMiKXJldHVybiByZXMuc2VuZFN0YXR1cygyMDApO25leHQoKTt9KTsKCmNvbnN0IERBVEFfRElSPXBhdGguam9pbihfX2Rpcm5hbWUsImRhdGEiKTsKY29uc3QgREFUQV9GSUxFPXBhdGguam9pbihEQVRBX0RJUiwic3RvcmUuanNvbiIpOwpmdW5jdGlvbiByZWFkU3RvcmUoKXt0cnl7aWYoIWZzLmV4aXN0c1N5bmMoREFUQV9ESVIpKWZzLm1rZGlyU3luYyhEQVRBX0RJUix7cmVjdXJzaXZlOnRydWV9KTtpZighZnMuZXhpc3RzU3luYyhEQVRBX0ZJTEUpKXJldHVybnt9O3JldHVybiBKU09OLnBhcnNlKGZzLnJlYWRGaWxlU3luYyhEQVRBX0ZJTEUsInV0ZjgiKSk7fWNhdGNoe3JldHVybnt9O319CmZ1bmN0aW9uIHdyaXRlU3RvcmUoZCl7dHJ5e2ZzLndyaXRlRmlsZVN5bmMoREFUQV9GSUxFLEpTT04uc3RyaW5naWZ5KGQsbnVsbCwyKSk7cmV0dXJuIHRydWU7fWNhdGNoe3JldHVybiBmYWxzZTt9fQoKYXBwLmdldCgiL2FwaS9oZWFsdGgiLChyZXEscmVzKT0+cmVzLmpzb24oe3N0YXR1czoib2siLHRpbWU6bmV3IERhdGUoKS50b0lTT1N0cmluZygpfSkpOwoKLy8g4pSA4pSAIEdlbWluaSBBSSBQcm94eSDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKLy8g2KfZhNmF2YHYqtin2K0g2YrZj9mC2LHYoyDZgdmC2Lcg2YXZhiDZhdiq2LrZitixINio2YrYptipINi52YTZiSDYp9mE2LPZitix2YHYsdiMINmI2YTYpyDZiti12YQg2YTZhNmF2KrYtdmB2K0g2KPYqNiv2KfZiy4KLy8g2LnZhtivINin2YTYqti02LrZitmEOiBHRU1JTklfQVBJX0tFWT15b3VyX2tleV9oZXJlIG5vZGUgc2VydmVyLmpzCi8vINij2Ygg2LbYudmHINmB2Yog2YXZhNmBIC5lbnYgKNix2KfYrNi5IC5lbnYuZXhhbXBsZSDYp9mE2YXYsdmB2YIpCmNvbnN0IEdFTUlOSV9BUElfS0VZID0gcHJvY2Vzcy5lbnYuR0VNSU5JX0FQSV9LRVkgfHwgIiI7CmNvbnN0IEdFTUlOSV9NT0RFTCA9IHByb2Nlc3MuZW52LkdFTUlOSV9NT0RFTCB8fCAiZ2VtaW5pLTIuMC1mbGFzaCI7CgovLyDYrdivINio2LPZiti3INmE2YXYudiv2YQg2KfZhNi32YTYqNin2Kog2YTZg9mEIElQINmE2YXZhti5INil2LPYp9ih2Kkg2KfZhNin2LPYqtiu2K/Yp9mFINmE2YXZgdiq2KfYrdmDCmNvbnN0IHJhdGVMaW1pdE1hcCA9IG5ldyBNYXAoKTsKZnVuY3Rpb24gaXNSYXRlTGltaXRlZChpcCkgewogIGNvbnN0IG5vdyA9IERhdGUubm93KCk7CiAgY29uc3Qgd2luZG93TXMgPSA2MCAqIDEwMDA7IC8vINiv2YLZitmC2Kkg2YjYp9it2K/YqQogIGNvbnN0IG1heFJlcSA9IDIwOwogIGNvbnN0IGVudHJ5ID0gcmF0ZUxpbWl0TWFwLmdldChpcCkgfHwgeyBjb3VudDogMCwgc3RhcnQ6IG5vdyB9OwogIGlmIChub3cgLSBlbnRyeS5zdGFydCA+IHdpbmRvd01zKSB7IGVudHJ5LmNvdW50ID0gMDsgZW50cnkuc3RhcnQgPSBub3c7IH0KICBlbnRyeS5jb3VudCsrOwogIHJhdGVMaW1pdE1hcC5zZXQoaXAsIGVudHJ5KTsKICByZXR1cm4gZW50cnkuY291bnQgPiBtYXhSZXE7Cn0KCmFwcC5wb3N0KCIvYXBpL2FpL2NoYXQiLCBhc3luYyAocmVxLCByZXMpID0+IHsKICBpZiAoIUdFTUlOSV9BUElfS0VZKSB7CiAgICByZXR1cm4gcmVzLnN0YXR1cyg1MDMpLmpzb24oeyBlcnJvcjogIkFJIG5vdCBjb25maWd1cmVkIG9uIHNlcnZlci4gU2V0IEdFTUlOSV9BUElfS0VZIGVudmlyb25tZW50IHZhcmlhYmxlLiIgfSk7CiAgfQogIGNvbnN0IGlwID0gcmVxLmlwIHx8IHJlcS5jb25uZWN0aW9uPy5yZW1vdGVBZGRyZXNzIHx8ICJ1bmtub3duIjsKICBpZiAoaXNSYXRlTGltaXRlZChpcCkpIHsKICAgIHJldHVybiByZXMuc3RhdHVzKDQyOSkuanNvbih7IGVycm9yOiAiVG9vIG1hbnkgcmVxdWVzdHMuIFBsZWFzZSB3YWl0IGEgbW9tZW50LiIgfSk7CiAgfQoKICBjb25zdCB7IG1lc3NhZ2VzLCBzeXN0ZW1Qcm9tcHQgfSA9IHJlcS5ib2R5IHx8IHt9OwogIGlmICghQXJyYXkuaXNBcnJheShtZXNzYWdlcykgfHwgbWVzc2FnZXMubGVuZ3RoID09PSAwKSB7CiAgICByZXR1cm4gcmVzLnN0YXR1cyg0MDApLmpzb24oeyBlcnJvcjogIm1lc3NhZ2VzIGFycmF5IHJlcXVpcmVkIiB9KTsKICB9CgogIHRyeSB7CiAgICBjb25zdCBjb250ZW50cyA9IG1lc3NhZ2VzCiAgICAgIC5maWx0ZXIobSA9PiBtICYmIChtLnJvbGUgPT09ICJ1c2VyIiB8fCBtLnJvbGUgPT09ICJhc3Npc3RhbnQiKSkKICAgICAgLm1hcChtID0+ICh7CiAgICAgICAgcm9sZTogbS5yb2xlID09PSAiYXNzaXN0YW50IiA/ICJtb2RlbCIgOiAidXNlciIsCiAgICAgICAgcGFydHM6IFt7IHRleHQ6IFN0cmluZyhtLmNvbnRlbnQgfHwgIiIpIH1dLAogICAgICB9KSk7CgogICAgY29uc3QgYm9keSA9IHsKICAgICAgY29udGVudHMsCiAgICAgIC4uLihzeXN0ZW1Qcm9tcHQgPyB7IHN5c3RlbUluc3RydWN0aW9uOiB7IHBhcnRzOiBbeyB0ZXh0OiBTdHJpbmcoc3lzdGVtUHJvbXB0KSB9XSB9IH0gOiB7fSksCiAgICAgIGdlbmVyYXRpb25Db25maWc6IHsgbWF4T3V0cHV0VG9rZW5zOiAxMDI0LCB0ZW1wZXJhdHVyZTogMC43IH0sCiAgICB9OwoKICAgIGNvbnN0IHVybCA9IGBodHRwczovL2dlbmVyYXRpdmVsYW5ndWFnZS5nb29nbGVhcGlzLmNvbS92MWJldGEvbW9kZWxzLyR7R0VNSU5JX01PREVMfTpnZW5lcmF0ZUNvbnRlbnQ/a2V5PSR7R0VNSU5JX0FQSV9LRVl9YDsKICAgIGNvbnN0IHIgPSBhd2FpdCBmZXRjaCh1cmwsIHsKICAgICAgbWV0aG9kOiAiUE9TVCIsCiAgICAgIGhlYWRlcnM6IHsgIkNvbnRlbnQtVHlwZSI6ICJhcHBsaWNhdGlvbi9qc29uIiB9LAogICAgICBib2R5OiBKU09OLnN0cmluZ2lmeShib2R5KSwKICAgIH0pOwoKICAgIGlmICghci5vaykgewogICAgICBjb25zdCBlcnJUZXh0ID0gYXdhaXQgci50ZXh0KCkuY2F0Y2goKCkgPT4gIiIpOwogICAgICBjb25zb2xlLmVycm9yKCJHZW1pbmkgQVBJIGVycm9yOiIsIHIuc3RhdHVzLCBlcnJUZXh0KTsKICAgICAgcmV0dXJuIHJlcy5zdGF0dXMoNTAyKS5qc29uKHsgZXJyb3I6IGBHZW1pbmkgQVBJIGVycm9yICgke3Iuc3RhdHVzfSlgIH0pOwogICAgfQoKICAgIGNvbnN0IGRhdGEgPSBhd2FpdCByLmpzb24oKTsKICAgIGNvbnN0IHRleHQgPSBkYXRhPy5jYW5kaWRhdGVzPy5bMF0/LmNvbnRlbnQ/LnBhcnRzPy5tYXAocCA9PiBwLnRleHQpLmpvaW4oIiIpIHx8ICIiOwogICAgcmVzLmpzb24oeyB0ZXh0IH0pOwogIH0gY2F0Y2ggKGUpIHsKICAgIGNvbnNvbGUuZXJyb3IoIkFJIHByb3h5IGVycm9yOiIsIGUubWVzc2FnZSk7CiAgICByZXMuc3RhdHVzKDUwMCkuanNvbih7IGVycm9yOiAiSW50ZXJuYWwgc2VydmVyIGVycm9yIiB9KTsKICB9Cn0pOwphcHAucG9zdCgiL2FwaS9zeW5jLzp1c2VySWQiLChyZXEscmVzKT0+ewogIGNvbnN0IHt1c2VySWR9PXJlcS5wYXJhbXM7IGNvbnN0IHtkYXRhfT1yZXEuYm9keTsKICBpZighdXNlcklkfHwhZGF0YSlyZXR1cm4gcmVzLnN0YXR1cyg0MDApLmpzb24oe2Vycm9yOiJyZXF1aXJlZCJ9KTsKICBjb25zdCBzdG9yZT1yZWFkU3RvcmUoKTsKICBzdG9yZVt1c2VySWRdPXsuLi5kYXRhLGxhc3RTYXZlZDpuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCl9OwogIHdyaXRlU3RvcmUoc3RvcmUpOwogIGJyb2FkY2FzdFRvVXNlcih1c2VySWQse3R5cGU6InN5bmMiLGRhdGE6c3RvcmVbdXNlcklkXX0pOwogIHJlcy5qc29uKHtzdGF0dXM6Im9rIn0pOwp9KTsKYXBwLmdldCgiL2FwaS9zeW5jLzp1c2VySWQiLChyZXEscmVzKT0+ewogIGNvbnN0IHN0b3JlPXJlYWRTdG9yZSgpOyBjb25zdCBkYXRhPXN0b3JlW3JlcS5wYXJhbXMudXNlcklkXTsKICBpZighZGF0YSlyZXR1cm4gcmVzLmpzb24oe3N0YXR1czoiZW1wdHkifSk7CiAgcmVzLmpzb24oe3N0YXR1czoib2siLGRhdGF9KTsKfSk7Cgpjb25zdCBkaXN0RGlyPXBhdGguam9pbihfX2Rpcm5hbWUsImRpc3QiKTsKaWYoZnMuZXhpc3RzU3luYyhkaXN0RGlyKSl7CiAgYXBwLnVzZShleHByZXNzLnN0YXRpYyhkaXN0RGlyLHttYXhBZ2U6IjFkIn0pKTsKICBhcHAuZ2V0KCIqIiwocmVxLHJlcyk9PnJlcy5zZW5kRmlsZShwYXRoLmpvaW4oZGlzdERpciwiaW5kZXguaHRtbCIpKSk7Cn1lbHNlewogIGFwcC5nZXQoIi8iLChyZXEscmVzKT0+cmVzLnNlbmQoYDxoMSBzdHlsZT0iZm9udC1mYW1pbHk6c2Fucy1zZXJpZjtjb2xvcjojRjk3MzE2O3RleHQtYWxpZ246Y2VudGVyO21hcmdpbi10b3A6MTAwcHgiPuKaoSBUcmFkZVBybyBTZXJ2ZXIgUnVubmluZyBvbiBwb3J0ICR7UE9SVH08L2gxPmApKTsKfQoKY29uc3Qgc2VydmVyPWh0dHAuY3JlYXRlU2VydmVyKGFwcCk7CmNvbnN0IGNsaWVudHM9bmV3IE1hcCgpOwpmdW5jdGlvbiBicm9hZGNhc3RUb1VzZXIodXNlcklkLG1zZyl7CiAgY29uc3QgcGVlcnM9Y2xpZW50cy5nZXQodXNlcklkKTsgaWYoIXBlZXJzKXJldHVybjsKICBjb25zdCByYXc9SlNPTi5zdHJpbmdpZnkobXNnKTsKICBwZWVycy5mb3JFYWNoKHdzPT57aWYod3MucmVhZHlTdGF0ZT09PTEpd3Muc2VuZChyYXcpO30pOwp9CnRyeXsKICBjb25zdCB7V2ViU29ja2V0U2VydmVyfT1yZXF1aXJlKCJ3cyIpOwogIGNvbnN0IHdzcz1uZXcgV2ViU29ja2V0U2VydmVyKHtzZXJ2ZXJ9KTsKICB3c3Mub24oImNvbm5lY3Rpb24iLHdzPT57CiAgICBsZXQgdXNlcklkPW51bGw7CiAgICB3cy5vbigibWVzc2FnZSIscmF3PT57CiAgICAgIHRyeXsKICAgICAgICBjb25zdCBtc2c9SlNPTi5wYXJzZShyYXcudG9TdHJpbmcoKSk7CiAgICAgICAgaWYobXNnLnR5cGU9PT0icmVnaXN0ZXIiJiZtc2cudXNlcklkKXsKICAgICAgICAgIHVzZXJJZD1tc2cudXNlcklkOwogICAgICAgICAgaWYoIWNsaWVudHMuaGFzKHVzZXJJZCkpY2xpZW50cy5zZXQodXNlcklkLG5ldyBTZXQoKSk7CiAgICAgICAgICBjbGllbnRzLmdldCh1c2VySWQpLmFkZCh3cyk7CiAgICAgICAgICBjb25zdCBzdG9yZT1yZWFkU3RvcmUoKTsKICAgICAgICAgIGlmKHN0b3JlW3VzZXJJZF0pd3Muc2VuZChKU09OLnN0cmluZ2lmeSh7dHlwZToiaW5pdCIsZGF0YTpzdG9yZVt1c2VySWRdfSkpOwogICAgICAgIH0KICAgICAgICBpZihtc2cudHlwZT09PSJ1cGRhdGUiJiZ1c2VySWQmJm1zZy5kYXRhKXsKICAgICAgICAgIGNvbnN0IHN0b3JlPXJlYWRTdG9yZSgpOwogICAgICAgICAgc3RvcmVbdXNlcklkXT17Li4ubXNnLmRhdGEsbGFzdFNhdmVkOm5ldyBEYXRlKCkudG9JU09TdHJpbmcoKX07CiAgICAgICAgICB3cml0ZVN0b3JlKHN0b3JlKTsKICAgICAgICAgIGNvbnN0IHBlZXJzPWNsaWVudHMuZ2V0KHVzZXJJZCl8fG5ldyBTZXQoKTsKICAgICAgICAgIHBlZXJzLmZvckVhY2gocD0+e2lmKHAhPT13cyYmcC5yZWFkeVN0YXRlPT09MSlwLnNlbmQoSlNPTi5zdHJpbmdpZnkoe3R5cGU6InN5bmMiLGRhdGE6c3RvcmVbdXNlcklkXX0pKTt9KTsKICAgICAgICB9CiAgICAgIH1jYXRjaHt9CiAgICB9KTsKICAgIHdzLm9uKCJjbG9zZSIsKCk9PntpZih1c2VySWQmJmNsaWVudHMuaGFzKHVzZXJJZCkpY2xpZW50cy5nZXQodXNlcklkKS5kZWxldGUod3MpO30pOwogIH0pOwogIGNvbnNvbGUubG9nKCLinIUgV2ViU29ja2V0IGVuYWJsZWQiKTsKfWNhdGNoe2NvbnNvbGUubG9nKCLimqDvuI8gcnVuOiBucG0gaW5zdGFsbCB3cyIpO30KCnNlcnZlci5saXN0ZW4oUE9SVCwiMC4wLjAuMCIsKCk9PnsKICBjb25zdCBvcz1yZXF1aXJlKCJvcyIpOwogIGNvbnN0IGlwPU9iamVjdC52YWx1ZXMob3MubmV0d29ya0ludGVyZmFjZXMoKSkuZmxhdCgpLmZpbmQobj0+bi5mYW1pbHk9PT0iSVB2NCImJiFuLmludGVybmFsKT8uYWRkcmVzc3x8ImxvY2FsaG9zdCI7CiAgY29uc29sZS5sb2coYFxu4pqhIFRyYWRlUHJvIFNlcnZlclxuTG9jYWw6IGh0dHA6Ly9sb2NhbGhvc3Q6JHtQT1JUfVxuTmV0d29yazogaHR0cDovLyR7aXB9OiR7UE9SVH1cbmApOwp9KTsK
+// TradePro Server — Express + WebSocket for cross-device sync
+// npm install express compression ws dotenv
+// انسخ .env.example إلى .env وضع مفتاح GEMINI_API_KEY فيه
+// node server.js
+try { require("dotenv").config(); } catch {}
+const express = require("express");
+const path = require("path");
+const fs = require("fs");
+const http = require("http");
+const compression = require("compression");
+
+const app = express();
+const PORT = process.env.PORT || 3000;
+app.use(compression());
+app.use(express.json({limit:"10mb"}));
+app.use((req,res,next)=>{res.setHeader("Access-Control-Allow-Origin","*");res.setHeader("Access-Control-Allow-Methods","GET,POST,DELETE,OPTIONS");res.setHeader("Access-Control-Allow-Headers","Content-Type");if(req.method==="OPTIONS")return res.sendStatus(200);next();});
+
+const DATA_DIR=path.join(__dirname,"data");
+const DATA_FILE=path.join(DATA_DIR,"store.json");
+function readStore(){try{if(!fs.existsSync(DATA_DIR))fs.mkdirSync(DATA_DIR,{recursive:true});if(!fs.existsSync(DATA_FILE))return{};return JSON.parse(fs.readFileSync(DATA_FILE,"utf8"));}catch{return{};}}
+function writeStore(d){try{fs.writeFileSync(DATA_FILE,JSON.stringify(d,null,2));return true;}catch{return false;}}
+
+app.get("/api/health",(req,res)=>res.json({status:"ok",time:new Date().toISOString()}));
+
+// ── Gemini AI Proxy ──────────────────────────────────────────
+// المفتاح يُقرأ فقط من متغير بيئة على السيرفر، ولا يصل للمتصفح أبداً.
+// عند التشغيل: GEMINI_API_KEY=your_key_here node server.js
+// أو ضعه في ملف .env (راجع .env.example المرفق)
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY || "";
+const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-2.0-flash";
+
+// حد بسيط لمعدل الطلبات لكل IP لمنع إساءة الاستخدام لمفتاحك
+const rateLimitMap = new Map();
+function isRateLimited(ip) {
+  const now = Date.now();
+  const windowMs = 60 * 1000; // دقيقة واحدة
+  const maxReq = 20;
+  const entry = rateLimitMap.get(ip) || { count: 0, start: now };
+  if (now - entry.start > windowMs) { entry.count = 0; entry.start = now; }
+  entry.count++;
+  rateLimitMap.set(ip, entry);
+  return entry.count > maxReq;
+}
+
+app.post("/api/ai/chat", async (req, res) => {
+  if (!GEMINI_API_KEY) {
+    return res.status(503).json({ error: "AI not configured on server. Set GEMINI_API_KEY environment variable." });
+  }
+  const ip = req.ip || req.connection?.remoteAddress || "unknown";
+  if (isRateLimited(ip)) {
+    return res.status(429).json({ error: "Too many requests. Please wait a moment." });
+  }
+
+  const { messages, systemPrompt } = req.body || {};
+  if (!Array.isArray(messages) || messages.length === 0) {
+    return res.status(400).json({ error: "messages array required" });
+  }
+
+  try {
+    const contents = messages
+      .filter(m => m && (m.role === "user" || m.role === "assistant"))
+      .map(m => ({
+        role: m.role === "assistant" ? "model" : "user",
+        parts: [{ text: String(m.content || "") }],
+      }));
+
+    const body = {
+      contents,
+      ...(systemPrompt ? { systemInstruction: { parts: [{ text: String(systemPrompt) }] } } : {}),
+      generationConfig: { maxOutputTokens: 1024, temperature: 0.7 },
+    };
+
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}`;
+    const r = await fetch(url, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+    });
+
+    if (!r.ok) {
+      const errText = await r.text().catch(() => "");
+      console.error("Gemini API error:", r.status, errText);
+      return res.status(502).json({ error: `Gemini API error (${r.status})` });
+    }
+
+    const data = await r.json();
+    const text = data?.candidates?.[0]?.content?.parts?.map(p => p.text).join("") || "";
+    res.json({ text });
+  } catch (e) {
+    console.error("AI proxy error:", e.message);
+    res.status(500).json({ error: "Internal server error" });
+  }
+});
+app.post("/api/sync/:userId",(req,res)=>{
+  const {userId}=req.params; const {data}=req.body;
+  if(!userId||!data)return res.status(400).json({error:"required"});
+  const store=readStore();
+  store[userId]={...data,lastSaved:new Date().toISOString()};
+  writeStore(store);
+  broadcastToUser(userId,{type:"sync",data:store[userId]});
+  res.json({status:"ok"});
+});
+app.get("/api/sync/:userId",(req,res)=>{
+  const store=readStore(); const data=store[req.params.userId];
+  if(!data)return res.json({status:"empty"});
+  res.json({status:"ok",data});
+});
+
+const distDir=path.join(__dirname,"dist");
+if(fs.existsSync(distDir)){
+  app.use(express.static(distDir,{maxAge:"1d"}));
+  app.get("*",(req,res)=>res.sendFile(path.join(distDir,"index.html")));
+}else{
+  app.get("/",(req,res)=>res.send(`<h1 style="font-family:sans-serif;color:#F97316;text-align:center;margin-top:100px">⚡ TradePro Server Running on port ${PORT}</h1>`));
+}
+
+const server=http.createServer(app);
+const clients=new Map();
+function broadcastToUser(userId,msg){
+  const peers=clients.get(userId); if(!peers)return;
+  const raw=JSON.stringify(msg);
+  peers.forEach(ws=>{if(ws.readyState===1)ws.send(raw);});
+}
+try{
+  const {WebSocketServer}=require("ws");
+  const wss=new WebSocketServer({server});
+  wss.on("connection",ws=>{
+    let userId=null;
+    ws.on("message",raw=>{
+      try{
+        const msg=JSON.parse(raw.toString());
+        if(msg.type==="register"&&msg.userId){
+          userId=msg.userId;
+          if(!clients.has(userId))clients.set(userId,new Set());
+          clients.get(userId).add(ws);
+          const store=readStore();
+          if(store[userId])ws.send(JSON.stringify({type:"init",data:store[userId]}));
+        }
+        if(msg.type==="update"&&userId&&msg.data){
+          const store=readStore();
+          store[userId]={...msg.data,lastSaved:new Date().toISOString()};
+          writeStore(store);
+          const peers=clients.get(userId)||new Set();
+          peers.forEach(p=>{if(p!==ws&&p.readyState===1)p.send(JSON.stringify({type:"sync",data:store[userId]}));});
+        }
+      }catch{}
+    });
+    ws.on("close",()=>{if(userId&&clients.has(userId))clients.get(userId).delete(ws);});
+  });
+  console.log("✅ WebSocket enabled");
+}catch{console.log("⚠️ run: npm install ws");}
+
+server.listen(PORT,"0.0.0.0",()=>{
+  const os=require("os");
+  const ip=Object.values(os.networkInterfaces()).flat().find(n=>n.family==="IPv4"&&!n.internal)?.address||"localhost";
+  console.log(`\n⚡ TradePro Server\nLocal: http://localhost:${PORT}\nNetwork: http://${ip}:${PORT}\n`);
+});
