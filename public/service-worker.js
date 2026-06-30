@@ -1,1 +1,12 @@
-Y29uc3QgQ0FDSEU9InRyYWRlcHJvLXYzIjsKY29uc3QgUFJFQ0FDSEU9WyIvIiwiL21hbmlmZXN0Lmpzb24iXTsKc2VsZi5hZGRFdmVudExpc3RlbmVyKCJpbnN0YWxsIixlPT57ZS53YWl0VW50aWwoY2FjaGVzLm9wZW4oQ0FDSEUpLnRoZW4oYz0+UHJvbWlzZS5hbGxTZXR0bGVkKFBSRUNBQ0hFLm1hcCh1PT5jLmFkZCh1KS5jYXRjaCgoKT0+e30pKSkpKTtzZWxmLnNraXBXYWl0aW5nKCk7fSk7CnNlbGYuYWRkRXZlbnRMaXN0ZW5lcigiYWN0aXZhdGUiLGU9PntlLndhaXRVbnRpbChjYWNoZXMua2V5cygpLnRoZW4oa2V5cz0+UHJvbWlzZS5hbGwoa2V5cy5maWx0ZXIoaz0+ayE9PUNBQ0hFKS5tYXAoaz0+Y2FjaGVzLmRlbGV0ZShrKSkpKSk7c2VsZi5jbGllbnRzLmNsYWltKCk7fSk7CnNlbGYuYWRkRXZlbnRMaXN0ZW5lcigiZmV0Y2giLGU9PnsKICBjb25zdCB7cmVxdWVzdH09ZTsgY29uc3QgdXJsPW5ldyBVUkwocmVxdWVzdC51cmwpOwogIGlmKHVybC5wYXRobmFtZS5zdGFydHNXaXRoKCIvYXBpLyIpKXsKICAgIGUucmVzcG9uZFdpdGgoZmV0Y2gocmVxdWVzdCkuY2F0Y2goKCk9Pm5ldyBSZXNwb25zZShKU09OLnN0cmluZ2lmeSh7c3RhdHVzOiJvZmZsaW5lIn0pLHtoZWFkZXJzOnsiQ29udGVudC1UeXBlIjoiYXBwbGljYXRpb24vanNvbiJ9fSkpKTsKICAgIHJldHVybjsKICB9CiAgZS5yZXNwb25kV2l0aChmZXRjaChyZXF1ZXN0KS50aGVuKHJlcz0+e2lmKHJlcy5vayYmcmVxdWVzdC5tZXRob2Q9PT0iR0VUIil7Y29uc3QgYz1yZXMuY2xvbmUoKTtjYWNoZXMub3BlbihDQUNIRSkudGhlbihjYz0+Y2MucHV0KHJlcXVlc3QsYykpO31yZXR1cm4gcmVzO30pLmNhdGNoKCgpPT5jYWNoZXMubWF0Y2gocmVxdWVzdCkudGhlbihjPT5jfHxuZXcgUmVzcG9uc2UoIk9mZmxpbmUiLHtzdGF0dXM6NTAzfSkpKSk7Cn0pOwo=
+const CACHE="tradepro-v3";
+const PRECACHE=["/","/manifest.json"];
+self.addEventListener("install",e=>{e.waitUntil(caches.open(CACHE).then(c=>Promise.allSettled(PRECACHE.map(u=>c.add(u).catch(()=>{})))));self.skipWaiting();});
+self.addEventListener("activate",e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))));self.clients.claim();});
+self.addEventListener("fetch",e=>{
+  const {request}=e; const url=new URL(request.url);
+  if(url.pathname.startsWith("/api/")){
+    e.respondWith(fetch(request).catch(()=>new Response(JSON.stringify({status:"offline"}),{headers:{"Content-Type":"application/json"}})));
+    return;
+  }
+  e.respondWith(fetch(request).then(res=>{if(res.ok&&request.method==="GET"){const c=res.clone();caches.open(CACHE).then(cc=>cc.put(request,c));}return res;}).catch(()=>caches.match(request).then(c=>c||new Response("Offline",{status:503}))));
+});
